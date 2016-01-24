@@ -1,0 +1,22 @@
+{
+  "name": "live-polling",
+  "version": "1.0.0",
+  "description": "live polling",
+  "main": "app-server.js",
+  "dependencies": {
+    "babel-core": "^6.4.5",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "babel-loader": "^6.2.1",
+    "babel-preset-react": "^6.3.13",
+    "react": "^0.14.6",
+    "webpack": "^1.12.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "webpack",
+    "start": "node app-server.js"
+  },
+  "author": "Marcus",
+  "license": "MIT"
+}
